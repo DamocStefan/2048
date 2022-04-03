@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+hr {
+    width: 100%;
+}
+#board{
+    width: 400px;
+    height: 400px;
+    background-color: #cdc1b4;
+    color: antiquewhite;
+    border: 5px solid #bbada0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tile{
+    width: 90px;
+    height: 90px;
+    border: 5px solid #bbada0;
+
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* colors for every tile*/
+.n2{
+    background-color: #eee4da;
+    color: #727371;
+}
+.n4{
+    background-color: #ede0c8;
+    color: #776e65;
+}
+.n8{
+    background-color: #f2b179;
+    color: #f9f6f2;
+}
+.n16{
+    background-color: #f59563;
+    color: #f9e4bd;
+}
+.n32{
+    background-color: #f67c60;
+    color: #f9f6f2;
+}
+.n64{
+    background-color: #f65e3b;
+    color: #f9f6f2;
+}
+.n128{
+    background-color: #edcf72;
+    color: #f9f6f2;
+}
+.n256{
+    background-color: #edcc61;
+    color: #f9f6f2;
+}
+.n512{
+    background-color: #edc850;
+    color: #f9f6f2;
+}
+.n1024{
+    background-color: #edc53f;
+    color: #f9f6f2;
+}
+.n2048{
+    background-color: #edc22e;
+    color: #f9f6f2;
+}
+.greaterThen2048{
+    background-color: #3c3a32;
+    color: #f9f6f2;
+}
